@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editLinkWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="masukkan link website beserta htttp://"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <Button
+        android:id="@+id/buttonNextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:text="Open Next Activity"
+        app:layout_constraintTop_toBottomOf="@+id/editLinkWebsite"
+        tools:layout_editor_absoluteX="161dp"
+        android:onClick="kirimDataKeActivityLain"/>
+</android.support.constraint.ConstraintLayout>
