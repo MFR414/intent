@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/namaView"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <TextView
+        android:id="@+id/addressView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addressview"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/nameView"
+        android:layout_marginTop="25dp"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/phoneView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phoneview"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/addressView"
+        android:layout_marginTop="25dp"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/shareButton"
+        app:layout_constraintTop_toBottomOf="@id/phoneView"
+        android:layout_marginTop="25dp"
+        android:textSize="30sp"
+        android:onClick="Share"
+        />
+
+</android.support.constraint.ConstraintLayout>

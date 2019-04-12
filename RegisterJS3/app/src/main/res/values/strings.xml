@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RegisterJS3</string>
+    <string name="NameHint">Insert Your Name</string>
+    <string name="AddressHint">Insert Your Address</string>
+    <string name="PhonenumberHint">Insert Your Phone Number</string>
+    <string name="namaView">nama</string>
+    <string name="addressview">addressView</string>
+    <string name="phoneview">phoneview</string>
+    <string name="shareButton">Share</string>
+</resources>
